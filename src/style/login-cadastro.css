@@ -39,6 +39,11 @@ section{
     flex-direction: column;
     gap: 40px;
 }
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
 .button{
     text-align: center;
