@@ -15,7 +15,6 @@ formLogin.addEventListener("submit", (ev) => {
     alert("Senha errada, digite novamente!");
     return;
   }
-  console.log(showIconLoading());
 
   showIconLoading();
 });

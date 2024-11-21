@@ -1,11 +1,20 @@
+const videoSrc = "../../public/Images/Loading (1).mp4";
+
 export function showIconLoading() {
   const body = document.querySelector("body");
+
+  const container = document.createElement("div");
+  container.id = "container-loader";
+
   const videoTag = document.createElement("video");
-  videoTag.setAttribute(
-    "src",
-    "https://github.com/kaiocoutinho/Fortes-Front-End/blob/master/public/Images/Loading%20(1).mp4"
-  );
+  // Atributos do video
+  videoTag.setAttribute("src", videoSrc);
   videoTag.setAttribute("autoplay", true);
   videoTag.setAttribute("loop", true);
-  body.appendChild(videoTag);
+  videoTag.setAttribute("width", 300);
+
+  container.appendChild(videoTag);
+  body.appendChild(container); // Adicionando o video na página
+
+  videoTag.classList.add("video"); //Adicionando CSS ao elemento
 }
