@@ -17,4 +17,8 @@ formLogin.addEventListener("submit", (ev) => {
   }
 
   showIconLoading();
+
+  setTimeout(() => {
+    window.location.href = "./home.html";
+  }, 3 * 1000);
 });
