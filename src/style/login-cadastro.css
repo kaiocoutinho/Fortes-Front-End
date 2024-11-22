@@ -1,0 +1,74 @@
+body{
+    background-color: #084267;
+}
+
+#to-back > h1 {
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color:#fff
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 550px;
+    padding: 20px;
+}
+
+section{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.button{
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#container-loading{
+    transition: 0.5s;
+    background-color: #fff;
+    position: absolute;
+    min-width: 99%;
+    min-height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
