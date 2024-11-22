@@ -1,0 +1,148 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: #084267;
+}
+header{
+   background-color: #fff;
+   padding: 30px;
+}
+nav{
+   text-align: center;
+    
+}
+
+ul.sidebar{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.container-logout{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a.logout{
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    padding-right: 10px;
+}
+
+a.logout > img{
+    width: 18PX;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.title{
+    font-size: 26px;
+    text-align: center;
+}
+
+section{
+    width: 60vw;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+label{
+    font-size: 22px;
+}
+
+input{
+    border: 0px;
+    width: 200px;
+    border-bottom: 2px solid black;
+    list-style: none;
+
+}
+
+input[type="date"] {
+    appearance: none; /* Para navegadores baseados em Webkit */
+    -webkit-appearance: none; /* Safari e Chrome */
+    -moz-appearance: none; /* Firefox */
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 16px;
+  }
+
+form > div{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.button-container{
+    justify-content: center;
+}
+
+.button{
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 50%;
+}
+
+.button:disabled {
+  cursor: default;
+}
+
+.button:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
