@@ -7,22 +7,110 @@
     <title>Inicio</title>
     <link rel="shortcut icon" href="/public/Images/logos/fortes-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../style/base.css">
-    <link rel="stylesheet" href="../style/home.css">
+    <link rel="stylesheet" href="../style/historico.css">
+    <script type="module" src="../js/userPage.mjs"></script>
 </head>
 
 <body>
-<header>
-    <nav>
-        <ul class="sidebar">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="./planejamento.html">Planejamento</a></li>
-            <li><a href="./relatorios.html">Relátorio</a></li>
-        </ul>
-        <div class="container-logout">
-            <a href="../index.html" class="logout">Sair  <img src="/public/Images/icons/logoutIcon.svg" alt="icone de sair da página"></a>
+    <aside id="menu-lateral">
+        <div id="usuario">
+            <h1>Usuário</h1>
         </div>
-    </nav>
-</header>
+        <section>
+            <div>
+                <i>
+                    <img src="../../public/Images/icons/register.svg" alt="Icone de  cadastro.">
+                </i>
+                <h2>Histórico</h2>
+            </div>
+            <div>
+                <i>
+                    <img src="../../public/Images/icons/partners.svg" alt="Icone de  cadastro.">
+                </i>
+                <h2>Auxílios</h2>
+            </div>
+            <div>
+                <i>
+                    <img src="../../public/Images/icons/group.svg" alt="Icone de  cadastro.">
+                </i>
+                <h2>Agentes</h2>
+            </div>
+            <div>
+                <i>
+                    <img src="../../public/Images/icons/finance.svg" alt="Icone de  cadastro.">
+                </i>
+                <h2>Financeiros</h2>
+            </div>
+            <div>
+                <i>
+                    <img src="../../public/Images/icons/register.svg" alt="Icone de  cadastro.">
+                </i>
+                <h2>Cadastro</h2>
+            </div>
+            <div>
+                <i>
+                    <img src="../../public/Images/icons/help.svg" alt="Icone de  cadastro.">
+                </i>
+                <h2>Ajuda</h2>
+            </div>
+            <div>
+                <i>
+                    <img src="../../public/Images/icons/logout.svg" alt="Icone de  cadastro.">
+                </i>
+                <a href="../index.html">
+                    <h2>Sair</h2>
+                </a>
+            </div>
+        </section>
+    </aside>
+    <main class="" id="historico">
+        <h1>Histórico de Projetos</h1>
+        <div id="table">
+            <div class="title">
+                <label for="project">Selecione o Projeto: </label>
+                <select name="project" id="project">
+                    <option value="Projeto1">Projeto 1</option>
+                    <option value="Projeto 2">Projeto 2</option>
+                    <option value="Projeto 3">Projeto 3</option>
+                </select>
+            </div>
+            <div id="container-table">
+                <table>
+                    <tr>
+                        <th>
+                            Nome
+                        </th>
+                        <th>
+                            Idade
+                        </th>
+                        <th>
+                            Dados
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Giacomo Guilizzoni</td>
+                        <td>40</td>
+                        <td>Ausente</td>
+                    </tr>
+                    <tr>
+                        <td>Kaio Coutinho de Souza</td>
+                        <td>19</td>
+                        <td>Confirmado</td>
+                    </tr>
+                    <tr>
+                        <td>Daniel Cezana</td>
+                        <td>19</td>
+                        <td>Ausente</td>
+                    </tr>
+                    <tr>
+                        <td>Jhuan Juliao</td>
+                        <td>18</td>
+                        <td>Confirmado</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
