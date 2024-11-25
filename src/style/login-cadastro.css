@@ -59,16 +59,3 @@ button{
     cursor: pointer;
 }
 
-
-
-#container-loading{
-    transition: 0.5s;
-    background-color: #fff;
-    position: absolute;
-    min-width: 99%;
-    min-height: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 10;
-}

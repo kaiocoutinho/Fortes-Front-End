@@ -19,7 +19,7 @@ formLogin.addEventListener("submit", (ev) => {
   showIconLoading();
 
   setTimeout(() => {
-    window.location.href = "./home.html";
+    window.location.href = "./usuario.html";
   }, 3 * 1000);
 });
 
