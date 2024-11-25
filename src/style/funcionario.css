@@ -62,6 +62,11 @@ div > h2 {
     text-transform: uppercase;
     cursor: pointer;
 }
+
+div > h2:hover{
+  text-decoration: underline;
+}
+
 main{
     width: 100%;
 }
@@ -88,7 +93,7 @@ main#container-relatorio{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: #000;
     text-transform: uppercase;
 }
