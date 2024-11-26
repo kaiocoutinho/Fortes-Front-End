@@ -57,13 +57,12 @@ div > i {
     justify-content: end;
 }
 
-div > h2 {
+.link-menu {
   /* background-color: #fff; */
     text-transform: uppercase;
     cursor: pointer;
 }
-
-div > h2:hover{
+.link-menu:hover{
   text-decoration: underline;
 }
 

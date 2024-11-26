@@ -7,7 +7,7 @@
     <title>Inicio</title>
     <link rel="shortcut icon" href="/public/Images/logos/fortes-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="../style/base.css">
-<link rel="stylesheet" href="../style/iconLoadinf.css">
+    <link rel="stylesheet" href="../style/iconLoadinf.css">
     <link rel="stylesheet" href="../style/usuario.css">
     <script type="module" src="../js/userPage.mjs"></script>
 </head>
@@ -22,44 +22,44 @@
                 <i>
                     <img src="../../public/Images/icons/register.svg" alt="Icone de  cadastro.">
                 </i>
-                <h2>Histórico</h2>
+                <h2 class="link-menu">Histórico</h2>
             </div>
             <div id="auxilio">
                 <i>
                     <img src="../../public/Images/icons/partners.svg" alt="Icone de  cadastro.">
                 </i>
-                <h2>Auxílios</h2>
+                <h2 class="link-menu">Auxílios</h2>
             </div>
             <div>
                 <i>
                     <img src="../../public/Images/icons/group.svg" alt="Icone de  cadastro.">
                 </i>
-                <h2>Agentes</h2>
+                <h2 class="link-menu">Agentes</h2>
             </div>
             <div>
                 <i>
                     <img src="../../public/Images/icons/finance.svg" alt="Icone de  cadastro.">
                 </i>
-                <h2>Financeiros</h2>
+                <h2 class="link-menu">Financeiros</h2>
             </div>
             <div id="registerLink">
                 <i>
                     <img src="../../public/Images/icons/register.svg" alt="Icone de  cadastro.">
                 </i>
-                <h2>Cadastro</h2>
+                <h2 class="link-menu">Cadastro</h2>
             </div>
             <div>
                 <i>
                     <img src="../../public/Images/icons/help.svg" alt="Icone de  cadastro.">
                 </i>
-                <h2>Ajuda</h2>
+                <h2 class="link-menu">Ajuda</h2>
             </div>
             <div>
                 <i>
                     <img src="../../public/Images/icons/logout.svg" alt="Icone de  cadastro.">
                 </i>
                 <a href="../index.html">
-                    <h2>Sair</h2>
+                    <h2 class="link-menu">Sair</h2>
                 </a>
             </div>
         </section>
@@ -115,12 +115,16 @@
     <main class="visible-false" id="auxilios">
         <section>
             <div id="img-auxilios">
-                <img src="../../public/Images/projetoFortes.png" alt="Projeto sol realizado pela Fortes." width="200" height="200">
+                <img src="../../public/Images/projetoFortes.png" alt="Projeto sol realizado pela Fortes." width="200"
+                    height="200">
             </div>
-           <div class="text-auxilio">
-            <h1>Fortes entrega laboratórios de informática do Projeto Sol através do programa Fortificar</h1>
-            <p>Doamos 10 estações de trabalho completas, incluindo computadores, mesas, cadeiras e um ano de serviço de internet, permitindo o retorno das  atividades de qualificação profissional para a comunidade do bairro  Barcelona, na Serra/ES, e arredores. Este é um marco significativo para a instituição, que há muito tempo sonhava em retomar seus cursos em sua sede.</p>
-           </div>
+            <div class="text-auxilio">
+                <h1>Fortes entrega laboratórios de informática do Projeto Sol através do programa Fortificar</h1>
+                <p>Doamos 10 estações de trabalho completas, incluindo computadores, mesas, cadeiras e um ano de serviço
+                    de internet, permitindo o retorno das atividades de qualificação profissional para a comunidade do
+                    bairro Barcelona, na Serra/ES, e arredores. Este é um marco significativo para a instituição, que há
+                    muito tempo sonhava em retomar seus cursos em sua sede.</p>
+            </div>
         </section>
         <div id="img-footer">
             <img src="../../public/Images/equipe-projeto-sol.png" alt="Equipe responsável pelo projeto Sol.">
@@ -133,26 +137,27 @@
             <h2>Cadastre a sua ideia aqui!</h2>
             <p>Mande a sua ideia de projeto para a equipe fortes! Preencha o formulário abaixo:</p>
         </div>
-    <section>
-        
-        <form id="formProject">
-            <div>
-                <label for="name">Informe seu nome: </label>
-                <input type="text" id="name">
-            </div>
-            <div>
-                <label for="nameProject">Nome do Projeto: </label>
-                <input type="text" id="nameProject">
-            </div>
-            <div>
-                <label for="descriptionProject">Descrição: </label>
-                <textarea name="descriptionProject" id="descriptionProject" placeholder="Dê uma breve descrição da ideia do seu projeto..."></textarea>
-            </div>
-            <div id="container-button">
-                <button id="buttonRegister">Enviar</button>
-            </div>
-        </form>
-    </section>
+        <section>
+
+            <form id="formProject">
+                <div>
+                    <label for="name">Informe seu nome: </label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="nameProject">Nome do Projeto: </label>
+                    <input type="text" id="nameProject">
+                </div>
+                <div>
+                    <label for="descriptionProject">Descrição: </label>
+                    <textarea name="descriptionProject" id="descriptionProject"
+                        placeholder="Dê uma breve descrição da ideia do seu projeto..."></textarea>
+                </div>
+                <div id="container-button">
+                    <button id="buttonRegister">Enviar</button>
+                </div>
+            </form>
+        </section>
     </main>
 </body>
 

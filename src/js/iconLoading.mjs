@@ -21,3 +21,13 @@ export function showIconLoading() {
     body.removeChild(container);
   }, 4 * 1000);
 }
+
+export function ShowContainers(Visible, Invisible1, Invisible2) {
+  const containerVisible = document.querySelector(Visible);
+  const containerInvisible1 = document.querySelector(Invisible1);
+  const containerInvisible2 = document.querySelector(Invisible2);
+
+  containerVisible.classList.remove("visible-false");
+  containerInvisible1.classList.add("visible-false");
+  containerInvisible2.classList.add("visible-false");
+}

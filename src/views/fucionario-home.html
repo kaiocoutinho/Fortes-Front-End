@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/base.css">
     <link rel="stylesheet" href="../style/funcionario.css">
-    <script type="module" src="../js/funcionario.mjs"></script>
+    <script type="module" src="../js/funcionario.mjs" defer></script>
     <title>Inicio</title>
 </head>
 
@@ -22,32 +22,32 @@
                 <i>
                     <img src="../../public/Images/icons/relatorioIcon.svg" alt="Icone de relatório.">
                 </i>
-                <h2>Relátorio</h2>
+                <h2 class="link-menu" id="linkRelatorio">Relátorio</h2>
             </div>
             <div>
                 <i>
                     <img src="../../public/Images/icons/megaPhone.svg" alt="Icone de Mega fone.">
                 </i>
-                <h2>Divulgação</h2>
+                <h2 class="link-menu" id="linkDivulgacao">Divulgação</h2>
             </div>
             <div>
-                <h2>Acompanhamento</h2>
+                <h2 class="link-menu">Acompanhamento</h2>
             </div>
             <div>
-                <h2>Parceiro</h2>
+                <h2 class="link-menu">Parceiro</h2>
             </div>
             <div>
-                <h2>Projetos</h2>
+                <h2 class="link-menu" id="linkProjects">Projetos</h2>
             </div>
             <div>
-                <h2>Ajuda</h2>
+                <h2 class="link-menu">Ajuda</h2>
             </div>
             <div>
-                <h2><a href="../index.html">Sair</a></h2>
+                <h2 class="link-menu"><a href="../index.html" class=link-menu>Sair</a></h2>
             </div>
         </section>
     </aside>
-    <main class="visible-false" id="container-relatorio">
+    <main class="visible-false" id="containerRelatorio">
         <h1>Relatório de visita técnica</h1>
         <section>
             <label for="empresas">Empresas anteriores</label>
@@ -72,10 +72,19 @@
             </div>
         </div>
     </main>
+
+    <main class="visible-false" id="containerDivulgacoes">
+        <h1>Olá</h1>
+    </main>
+
     <main class="" id="containerProjects">
         <section id="project">
-            <h1>Projetos enviados</h1>
+            <h1 class="title">Projetos</h1>
+            <h2>Confira abaixo ideias de projetos que foram enviadas para nós:</h2>
         </section>
+        <div id="projects">
+            <span id="status">Nenhum projeto recebido</span>
+        </div>
     </main>
 </body>
 
