@@ -1,36 +1,18 @@
-import { showIconLoading } from "./iconLoading.mjs";
+import { showIconLoading, ShowContainers } from "./iconLoading.mjs";
 
 // EVENTO PARA MOSTRAR NA TELA AS INFORMAÇÕES DA PÁGINA AUXILIO
 document.querySelector("#auxilio").addEventListener("click", () => {
-  const containerHistoric = document.querySelector("#historico");
-  const containerAuxilio = document.querySelector("#auxilios");
-  const containerRegister = document.querySelector("#register");
-
-  containerHistoric.classList.add("visible-false");
-  containerAuxilio.classList.remove("visible-false");
-  containerRegister.classList.add("visible-false");
+  ShowContainers("#auxilios", "#historico", "#register");
 });
 
 // EVENTO PARA MOSTRAR NA TELA AS INFORMAÇÕES DA PÁGINA HISTÓRICO
 document.querySelector("#historicoLink").addEventListener("click", () => {
-  const containerHistoric = document.querySelector("#historico");
-  const containerAuxilio = document.querySelector("#auxilios");
-  const containerRegister = document.querySelector("#register");
-
-  containerHistoric.classList.remove("visible-false");
-  containerAuxilio.classList.add("visible-false");
-  containerRegister.classList.add("visible-false");
+  ShowContainers("#historico", "#auxilios", "#register");
 });
 
 // EVENTO PARA MOSTRAR NA TELA AS INFORMAÇÕES DA PÁGINA REGISTTRO DE PROJETOS
 document.querySelector("#registerLink").addEventListener("click", () => {
-  const containerHistoric = document.querySelector("#historico");
-  const containerAuxilio = document.querySelector("#auxilios");
-  const containerRegister = document.querySelector("#register");
-
-  containerHistoric.classList.add("visible-false");
-  containerAuxilio.classList.add("visible-false");
-  containerRegister.classList.remove("visible-false");
+  ShowContainers("#register", "#historico", "#auxilios");
 });
 
 // EVENTO DE ENVIAR OS DADOS QUE FORAM PREENCHIDOS NO FORMULÁRIO DE ENVIAR PROJETOS
