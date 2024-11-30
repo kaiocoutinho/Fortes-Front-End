@@ -1,6 +1,6 @@
 # Fortes-Front-End
 Projeto feito para a matéria de construção de software para web.<br>
-Link para o projeto: 
+Link para o projeto: https://kaiocoutinho.github.io/Fortes-Front-End/
 
 # Emails e Senhas
 Para fazer login como **Funcionário** ultilize os senguintes dados:
