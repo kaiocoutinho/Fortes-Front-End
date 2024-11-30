@@ -5,39 +5,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fortes</title>
-    <link rel="shortcut icon" href="/public/Images/logos/fortes-logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="/src/style/base.css">
-    <link rel="stylesheet" href="/src/style/index.css">
+    <link rel="shortcut icon" href="../public/Images/logos/fortes-logo.png" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            background-image: url("../public/Images/fundo.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            font-family: 'Poppins';
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: bolder;
+            text-transform: uppercase;
+
+        }
+
+        main {
+            width: 50%;
+        }
+
+        section {
+            padding: 50px;
+            height: 80vh;
+        }
+
+        div#logo {
+            padding: 10px;
+            text-align: center;
+            background-color: #fff;
+            border-radius: 5px 5px 0px 0px;
+        }
+
+        #logo>img {
+            width: 40%;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .container {
+            display: flex;
+            padding-top: 40px;
+            padding-bottom: 10px;
+            flex-direction: column;
+            background-color: #084267;
+            width: 100%;
+            height: min-content;
+            /* justify-content: space-between; */
+            border-radius: 5px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        button {
+            border: none;
+            width: 200px;
+            height: 40px;
+            color: #000;
+            background-color: #B9B1B1;
+            font-size: 16px;
+            font-family: 'Poppins';
+            font-weight: bolder;
+            cursor: pointer;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <div id="logo"><a href="fortes.html"><img src="/public/Images/logos/fortes-logo.png" alt="Logo da Empresa Fortes."></a></div>
-        <nav>
-            <ul>
-                <li id="icon-person">Icone</li>
-                <li class="link"><a href="./views/cadastro.html">Funcionário</a></li>
-                <li class="link"><a href="./views/login.html">Usuario</a></li>
-
-            </ul>
-        </nav>
-    </header>
     <main>
         <section>
-            <div>
-                <img src="/public/Images/logos/fortificar.png" alt="Logo Fortificar.">
+            <div id="logo">
+                <img src="/public/Images/logos/fortes-logo.png" alt="Logo da empresa Fortes.">
             </div>
-        </section>
-        <section id="container-carrosel">
-            <div class="carrosel carrosel1">
-                <!-- <img class="carrosel" src="/public/Images/image1.png" alt=""> -->
+            <div class="container">
+                <div>
+                    <h1>O jeito fortes de ser</h1>
+                </div>
+                <div>
+                    <p class="italic">Propósito é a direção, o norte. O propósito empresarial faz parte da estratégia do
+                        negócio,
+                        alinha objetivos e engaja pessoas.</p>
+                </div>
+                <div>
+                    <p>O que move a FORTES? O que motiva seus colaboradores a buscarem sempre o melhor? É o caminho
+                        trilhado junto, na mesma direção, unindo fundadores e colaboradores. Os propósitos são parte da
+                        “alma” da FORTES. São sua motivação, sua direção, sua essência. Conhecer a missão, a visão, os
+                        valores e o negócio da FORTES é um grande passo para entender o jeito FORTES de ser.</p>
+                </div>
+                <div class="container-button">
+                    <a href="./views/fortes.html">
+                        <button>
+                            Nos conheça melhor
+                        </button></a>
+                </div>
             </div>
-            <div>
-                <img class="carrosel carrosel2" src="/public/Images/image2.png" alt="">
-            </div>
-            <div>
-                <img class="carrosel carrosel3" src="/public/Images/image3.png" alt="">
-            </div>
+
         </section>
     </main>
 </body>

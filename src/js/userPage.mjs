@@ -44,9 +44,9 @@ function toSendProject() {
 
   showIconLoading();
 
-  const newProject = [name, nameProject, description];
-  const stringProject = JSON.stringify(newProject);
-  localStorage.setItem("project", stringProject);
+  localStorage.setItem("namePerson", name);
+  localStorage.setItem("nameProject", nameProject)
+  localStorage.setItem("description", description)
   name = "";
   nameProject = "";
   description = "";
