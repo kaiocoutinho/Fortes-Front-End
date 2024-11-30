@@ -52,19 +52,19 @@ main{
 
 .carrosel1{
     width: 300px;
-    background-image: url(/public/Images/image1.png);
+    background-image: url(../../public/Images/image1.png);
     background-position: center;
     background-size: cover;
 }
 .carrosel2{
     width: 300px;
-    background-image: url(/public/Images/image2.png);
+    background-image: url(../../public/Images/image2.png);
     background-position: center;
     background-size: cover;
 }
 .carrosel3{
     width: 300px;
-    background-image: url(/public/Images/image3.png);
+    background-image: url(../../public/Images/image3.png);
     background-position: center;
     background-size: cover;
 }
