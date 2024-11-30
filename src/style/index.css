@@ -3,6 +3,7 @@ header{
     justify-content: space-between;
     padding: 10px 50px 10px 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 a > img{
@@ -47,6 +48,7 @@ main{
 
 #container-carrosel{
     display: flex;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -67,4 +69,11 @@ main{
     background-image: url(../../public/Images/image3.png);
     background-position: center;
     background-size: cover;
+}
+
+@media (width < 681px) {
+    #container-carrosel{
+        align-items: center;
+        justify-content: center;
+    }
 }
