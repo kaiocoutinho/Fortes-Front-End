@@ -4,7 +4,7 @@ Link para o projeto: https://kaiocoutinho.github.io/Fortes-Front-End/
 
 # Emails e Senhas
 Para fazer login como **Funcionário** ultilize os senguintes dados:
-- Email: kaioadm.outlook.com
+- Email: kaioadm@outlook.com
 - Senha: adm123 <br>
 
 Para fazer login como **Usuário** ultilize os seguintes dados:
